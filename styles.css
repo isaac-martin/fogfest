@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+body {
+font-family: 'Bungee', cursive;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+div[class*="answer"] {
+  display: none;
+  font-size: 32px
+}
+
+.one .wraps .answer-1 {
+  display: block;
+}
+
+.two .wraps .answer-2 {
+  display: block;
+}
+
+.three .wraps .answer-3 {
+  display: block;
+}
+
+.four .wraps .answer-4 {
+  display: block;
+}
+
+.five .wraps .answer-5 {
+  display: block;
+}
+
+.six .wraps .answer-6 {
+  display: block;
+}
+
+.seven .wraps .answer-7 {
+  display: block;
+}
+
+.eight .wraps .answer-8 {
+  display: block;
+}
+
+.nine .wraps .answer-9 {
+  display: block;
+}
+
+.ten .wraps .answer-10 {
+  display: block;
+}
+
+.eleven .wraps .answer-11 {
+  display: block;
+}
+
+img {
+  max-width: 80%;
+  margin: 0 auto
+}
+
+
+
+
+.fogfest {
+  -webkit-animation: banner 10s linear infinite;
+          animation: banner 10s linear infinite;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 120px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          background: #40E0D0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.4;
+  overflow: hidden;
+  padding: 0 40px;
+  position: absolute;
+  top: 70%;
+  width: 800px;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transform: translateX(150%) translateZ(0) scale(1, 1);
+          transform: translateX(150%) translateZ(0) scale(1, 1);
+  white-space: nowrap;
+}
+
+.fogfest h1 {
+  color: white;
+}
+@-webkit-keyframes banner {
+  100% {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+}
+
+@keyframes banner {
+  100% {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fadein {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+}
+
+.of canvas{
+  display: block;
+}
+
+.daybefore {
+  display: none;
+}
+
+.dayoff {
+  display: none;
+}
+
+
+.of .dayoff {
+  display: block;
+}
+
+.before .daybefore {
+  display: block;
+}
+
+
+.thewrap {
+  z-index: 2;
+}
+
+
+.of .wraps {
+  display: none;
+}
+
+.before .wraps {
+  display: none;
+}
+
+
+
+#giantssong {
+  display: none;
+}
