@@ -4,8 +4,17 @@ body {
 font-family: 'Bungee', cursive;
   text-align: center;
   overflow: hidden;
+  display: block;
+  position: relative;
+  
 }
 
+
+.thewrap {
+  width: 100%;
+  display: block;
+  position: relative;
+}
 h1 {
   font-size: 42px;
 }
@@ -181,4 +190,24 @@ canvas {
 
 #giantssong {
   display: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  img {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+  }
+  
+  .fogfest {
+    top: 110%;
+    font-size: 30px;
+  }
+  
 }
