@@ -95,7 +95,7 @@ img {
   overflow: hidden;
   padding: 0 40px;
   position: absolute;
-  top: 70%;
+  top: 150%;
   width: 800px;
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
